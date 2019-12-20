@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="mepportfolio.css">
+    <title>Portfolio Ludovic Lemasson</title>
+</head>
+<body>
+    <!-- Creation du menu --> 
+    <section class="menu">
+        <ul class="listemenu">
+            <li><a href="#Accueil">Accueil</a></li>
+            <li><a href="#Cursus">Cursus</a></li>
+            <li><a href="#Outils">Outils</a></li>
+            <li><a href="#Travaux">Travaux</a></li>
+            <li><a href="#Contact">Contact</a></li>
+            <a href="https://www.linkedin.com/in/ludovic-lemasson-539a25179/">
+            <img class="logolinkedin" src="image\linkedin.png" 
+            alt="Linkedin" class="image"></a>
+        </ul>
+    </section>
+
+    <!--Creation du block accueil-->
+    <div id="Accueil">
+        <div class="styleaccueil">
+            <h1>Bienvenue</h1> 
+            <img class="avatar" src="image\avatar.jpg" 
+            alt="Linkedin" class="image">
+            <h4>Ludovic Lemasson</h4> 
+        </div>  
+    </div>
+
+    <!--Creation du block Cursus-->
+    <div id="Cursus" class="stylecursus" class="backtravaux">
+        <h3 class ="titre">Cursus</h3>
+        <p>Bac Pro Commerce 2015</p>
+        <p>Vendeur conforama 2015</p>
+        <p>Approvitionneur Conforama 2016</p>
+        <p>Manutentionnaire Hachette 2018</p>
+    </div>
+
+    <!--Creation du block outil-->
+    <div id="Outils" class="styleoutil" >
+        <h3 class ="titre">Outils</h3>
+        <div id="backoutil">
+            <ul class="listeoutil">
+                <img src="image\HTML5.png" alt="HTML5" class="image">
+                <img src="image\CSS3.png" alt="CSS3" class="image">
+                <img src="image\Visual_Studio_Code.png" alt="Visual Studio" class="image">
+                <img src="image\JavaScript.png" alt="JavaScript" class="image">
+                <img src="image\Angular.png" alt="Angular" class="image">
+            </ul>
+        </div>
+    </div>
+
+    <!--Creation du block Travaux-->
+    <div id="Travaux" class="styletravaux" class="backtravaux">
+            <h3 class ="titre">Travaux</h3>
+            <a href="https://github.com/ludoviclemasson">
+            <img src="image\Github.png" alt="Github" class="logogithub"></a>
+            <ul>
+                <img src="image\encours.jpg" alt="Futur projet" class="imgprojet">
+                <img src="image\encours.jpg" alt="Futur projet" class="imgprojet">
+                <img src="image\encours.jpg" alt="Futur projet" class="imgprojet">
+            </ul>
+        </div>
+
+    <!--Creation du block Contact-->
+    <div id="Contact" class="stylecontact">
+        <h3 class ="titre">Contact</h3>
+        <!--le formulaire de contact-->
+        <input type="text" class="input" placeholder="Nom/Prenom">
+        <input type="text" class="input" placeholder="Nom Entreprise">
+        <input type="text" class="input" placeholder="Email">
+        <textarea type="text"  placeholder="Message"></textarea>
+
+    </div>
+</body>
+</html> 
