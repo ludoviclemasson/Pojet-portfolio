@@ -170,7 +170,10 @@ textarea{
     resize: none;
 }
 
+/* Gestion de footer'*/
 
-
+footer{
+    text-align: center;
+}
 
   
