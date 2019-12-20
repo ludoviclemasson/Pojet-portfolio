@@ -1,0 +1,176 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* Gestion de Menu*/
+.menu{
+    position: sticky;
+    top: 0;
+    border: 2px solid white;
+}
+
+.listemenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: silver;
+    
+  }
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: flex;
+    color: black;
+    text-align: center;
+    padding: 6px 8px;
+    text-decoration: none;
+    
+}
+li a:hover{
+    background-color: white;
+}
+
+.logolinkedin{
+    width: 10%;
+    padding: 5px 5px ;
+    height: 10%;
+    max-width: 20px;
+    float: right;
+    background: #0077B5;
+    
+}
+
+/* Gestion de l'acceuil*/
+.styleaccueil{
+    background:url("../image/outil.jpg");
+    background-attachment:fixed;
+    background-position:center;
+    background-size: cover; 
+}
+
+h1{
+    margin: auto;
+    color:black;
+    text-align: center;
+}
+.avatar{
+    width: 10%;
+    height: 20%;
+    padding: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h4{
+    margin: auto;
+    color:black;
+    text-align: center;
+}
+
+/* Gestion des titres'*/
+.titre{
+    background-color: silver;
+    text-align: center;
+}
+
+/* Gestion de cursus'*/
+.stylecursus{
+    background-color: #0F4C81;
+    margin: auto;
+    padding: 0% 0% 5% 0%;    
+}
+p{
+    display: flex;
+    color: red;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 5%;
+    margin: 5%;
+    background-color: white;
+}
+
+/* Gestion d'outil'*/
+.styleoutil{
+    background-color: #00689F;
+    margin: auto;
+    background-attachment: fixed;
+}
+
+#backoutil{
+    background:url("../image/outil.jpg");
+    background-attachment:fixed;
+    background-position:center;
+    background-size: cover; 
+}
+
+.image{
+    height: 5%;
+    width: 6%;
+    padding: 5%;
+}
+
+.listeoutil {
+    list-style-type: none;
+    margin: 0;
+    padding: 5%;
+    display: inline-flex;
+}
+
+/* Gestion de travaux'*/
+.styletravaux{
+    background-color: #0083AA;
+    margin: auto;
+    padding: 0%;
+}
+
+.logogithub{
+    width: 10%;
+    height: 20%;
+    padding: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imgprojet{
+    width: 20%;
+    padding: 5% ;    
+}
+
+/* Gestion de contact'*/
+.stylecontact{
+    background-color: #019EAF;
+    margin: auto;
+    padding: 0%;
+}
+
+.input {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 1% 5%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea{
+    width: 80%;
+    margin: 1% 5%;
+    padding: 12px 20px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+}
+
+
+
+
+  
